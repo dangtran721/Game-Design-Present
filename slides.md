@@ -505,16 +505,7 @@ style: |
   </div>
 </div>
 
----
 
-<!-- Slide 19: Bìa Tổng kết -->
-
-<h1 style="font-size: 3.8rem; font-weight: 800; color: #ffffff; border-bottom: none; margin: 0; padding: 0; line-height: 1.2;">
-  Tổng kết & So sánh
-</h1>
-<p style="font-size: 1.45rem; font-weight: 400; color: #8fa0b5; margin: 24px 0 0 0; padding: 0;">
-  Điểm chung & Điểm mạnh / yếu của từng dòng game
-</p>
 
 ---
 
@@ -553,6 +544,17 @@ style: |
     </div>
   </div>
 
+---
+
+<!-- Slide 19: Bìa Tổng kết -->
+
+<h1 style="font-size: 3.8rem; font-weight: 800; color: #ffffff; border-bottom: none; margin: 0; padding: 0; line-height: 1.2;">
+  Tổng kết & So sánh
+</h1>
+<p style="font-size: 1.45rem; font-weight: 400; color: #8fa0b5; margin: 24px 0 0 0; padding: 0;">
+  Điểm chung & Điểm mạnh / yếu của từng dòng game
+</p>
+
 --- 
 # Mạnh & Yếu của từng dòng game
   <div class ="three-col" style="font-size: 0.85rem; line-height: 1.5; padding: 16px 20px;">
@@ -573,21 +575,6 @@ style: |
   </div>
 </div>
 
----
-
-<!-- Slide 22: Điểm chung cốt lõi -->
-
-# Điểm chung: Điều gì làm game đáng chơi?
-
-<div >
-  <div>
-    <div class="left-lead">
-      Cả 3 tựa game đều xoay quanh một trục bất biến: <b>Phản hồi rõ ràng</b> và <b>Mục tiêu tiếp theo</b>.
-    </div>
-    <div class="left-note-box">
-      Code chạy đúng là điều kiện tối thiểu — tạo ra cảm giác muốn chơi thêm một lượt nữa mới là đích đến.
-    </div>
-  </div>
 
 ---
 # 💡 3 Nguyên lý giữ chân người chơi
