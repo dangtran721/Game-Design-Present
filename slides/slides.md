@@ -263,8 +263,6 @@ style: |
    <div class="card-label" style="color: #c2410c;">Cái Bực nhất?</div>
   </div>
 </div>
-  
-
 
   ---
   
@@ -276,7 +274,11 @@ style: |
 <p style="font-size: 1.45rem; font-weight: 400; color: #8fa0b5; margin: 24px 0 0 0; padding: 0;">
   Hyper-casual
 </p>
-
+<div class="img-frame">
+    <img src=" />
+    <div class="img-caption">Gameplay Hit Perfect 3D (Ragdoll Shooter)</div>
+  </div>
+  
 ---
 
 <!-- Slide 3: Core loop Hit Perfect 3D -->

@@ -1,0 +1,207 @@
+:root {
+    font-family: "Work Sans", Arial, sans-serif;
+    --main-color: #040014;
+    --text-color: #121114;
+    --bg-color-alt: #dadada;
+    --mark-background: #98d6ff;
+  }
+
+  /* --- BACKGROUND GRAPH PAPER --- */
+  section {
+    background-color: #e3e3f1;
+    background-size: 20px 20px;
+    background-image:
+      linear-gradient(#3f32af18 1px, transparent 1px),
+      linear-gradient(to right, #ccc89536 1px, #d8d8e62d 1px);
+    color: var(--text-color);
+    padding: 35px 50px;
+  }
+
+  /* --- TITLES --- */
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--text-color);
+    font-weight: 800;
+  }
+
+  h1 {
+    font-size: 1.85rem;
+    margin-top: 4px;
+    margin-bottom: 16px;
+    border-bottom: 2px solid var(--main-color);
+    padding-bottom: 6px;
+  }
+
+  /* --- TEXT & MARP KEYWORDS --- */
+  blockquote {
+    background: #ffffff;
+    border-left: 8px solid var(--main-color);
+    margin: 12px 0 0 0;
+    padding: 10px 16px;
+    border-radius: 0 6px 6px 0;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: #1e1b4b;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.05);
+  }
+
+  mark {
+    background-color: var(--mark-background);
+    padding: 1px 4px;
+    font-weight: 600;
+    border-radius: 2px;
+  }
+
+  /* --- TAG & CARD LAYOUT --- */
+  .tag {
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #4338ca;
+  }
+
+  .grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+  }
+
+  .card {
+    background-color: #ffffff;
+    border: 1px solid #c7c7d9;
+    border-radius: 6px;
+    padding: 14px 14px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 3px 0px rgba(4, 0, 20, 0.08);
+  }
+
+  .card-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+    padding-bottom: 6px;
+    border-bottom: 1px dashed #c7c7d9;
+  }
+
+  .badge-num {
+    background-color: var(--main-color);
+    color: #ffffff;
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 0.8rem;
+  }
+
+  .card-title {
+    color: var(--text-color);
+    font-size: 0.92rem;
+    font-weight: 700;
+    line-height: 1.25;
+  }
+
+  .card-body {
+    font-size: 0.8rem;
+    line-height: 1.45;
+    color: #262626;
+  }
+
+  .card-body p {
+    margin: 0 0 6px 0;
+  }
+
+  /* --- PAGINATION --- */
+  section::after {
+    font-size: 0.75em;
+    content: attr(data-marpit-pagination) " / " attr(data-marpit-pagination-total);
+    color: var(--text-color);
+  }
+
+  /* --- LỚP BỔ TRỢ TITLE & COVER --- */
+  .title-slide {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    height: 100% !important;
+  }
+  .title-tag-box {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 12px;
+  }
+  .title-h1 {
+    font-size: 2.35rem !important;
+    line-height: 1.2 !important;
+    border-bottom: none !important;
+    padding-bottom: 0 !important;
+    margin-bottom: 10px !important;
+  }
+  .title-sub {
+    font-size: 1.15rem;
+    color: #334155;
+    font-weight: 600;
+    margin-bottom: 24px;
+  }
+  .title-meta {
+    display: flex;
+    gap: 24px;
+    border-top: 2px solid var(--main-color);
+    padding-top: 16px;
+    margin-top: 10px;
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: #475569;
+  }
+  .title-meta span b {
+    color: var(--text-color);
+  }
+
+  /* --- CARD BOXES --- */
+  .grid-3-cards {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 16px !important;
+    margin-top: 24px !important;
+  }
+
+  .card-box {
+    background: #ffffff !important;
+    border: 1px solid #c7c7d9 !important;
+    border-radius: 8px !important;
+    height: 250px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    box-shadow: 2px 3px 0px rgba(4, 0, 20, 0.08) !important;
+    box-sizing: border-box !important;
+    padding: 16px !important;
+  }
+
+  .circle-icon {
+    width: 72px !important;
+    height: 72px !important;
+    border-radius: 50% !important;
+    color: #ffffff !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 2rem !important;
+    margin-bottom: 16px !important;
+  }
+
+  .card-label {
+    font-size: 1.6rem !important;
+    font-weight: 800 !important;
+    line-height: 1.2 !important;
+    letter-spacing: -0.5px !important;
+    margin: 0 !important;
+  }
